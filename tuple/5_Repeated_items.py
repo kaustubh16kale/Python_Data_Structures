@@ -6,7 +6,7 @@ def repeated_items(inp_tuple):
     print(count_items)
     for key,value in count_items.items():
         if value>1:
-            new_list.append(i)
+            new_list.append(key)
     return new_list
     # return [x for x,count in count_items.items() if count>1]
 
